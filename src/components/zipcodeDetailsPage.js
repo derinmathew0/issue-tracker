@@ -5,7 +5,7 @@ import { Table } from 'antd';
 import * as _ from 'underscore';
 
 
-class TimeSlotPage extends Component {
+class ZipcodeDetailsPage extends Component {
   constructor(props) {
     super(props);
     this.props.dispatch(getZipcodeDetailsAction());
@@ -85,5 +85,5 @@ class TimeSlotPage extends Component {
 }
 const mapStateToProps = (response) => ({ response });
 
-export default connect(mapStateToProps)(TimeSlotPage);
+export default connect(mapStateToProps)(ZipcodeDetailsPage);
 
